@@ -12,7 +12,6 @@ addBtn.addEventListener('click', () => {
     }
 })
 
-
 function createTodo () {
   const todoList = document.querySelector('#todoList');
         const newLi = document.createElement('li');
