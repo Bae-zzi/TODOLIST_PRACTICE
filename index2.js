@@ -2,6 +2,7 @@ const todolist = document.querySelector('.todolist');
 const inputText = document.querySelector('.text');
 const addButton = document.querySelector('.button');
 const board = document.querySelector('#board');
+console.log('github test');
 
 let todos = [];
 
