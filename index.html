@@ -3,26 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="todo-container">
-        <h1>Todo</h1>
-        <div id="inputField">
-        <input type="text" id="todoInput" placeholder="할 일 추가하기" onkeydown="keyCodeCheck()">
-        <button type="button" id="addBtn">추가
-            <span></span>
-            <span></span>
-        </button>
-    </div>
-    <ul id="todoList">
-
+    <input type="text" class="text" placeholder="할 일을 적어주세요.">
+    <button class="button">더하기</button>
+    <ul class="todolist">
     </ul>
-    <div class="delete-btn-wrap">
-        <button onclick="deleteAll();">전체 삭제</button>
-    </div>
-</div>
-<script src="main.js"></script>
+    <div id="board"></div>
+    <script src="index2.js" defer></script>
 </body>
 </html>
